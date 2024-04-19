@@ -15,4 +15,4 @@ Proyek ini merupakan implementasi klasik dari permainan "Snake" menggunakan baha
 ## Teknologi yang Digunakan
 
 - **Bahasa Pemrograman:** Python
-- **Modul:**Pygame
+- **Modul:** Pygame
