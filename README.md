@@ -25,7 +25,7 @@ gameDisplay = pygame.display.set_mode((screen_width, screen_height)): Mengatur t
 
 pygame.display.set_caption('Snake Game'): Memberikan judul pada jendela permainan.
 
-# Warna dan Ukuran Blok
+#### Warna dan Ukuran Blok
 Warna yang digunakan adalah white, black, red, dan green dengan nilai RGB masing-masing.
 
 block_size menentukan ukuran setiap segmen ular dan apel.
@@ -41,7 +41,7 @@ tampilkan_skor(skor): Menampilkan skor pemain di pojok kiri atas layar.
 
 tampilkan_popup(): Menampilkan dialog konfirmasi menggunakan Tkinter untuk memastikan pemain ingin keluar dari permainan.
 
-# Game Loop
+### Game Loop
 
 gameLoop(): Fungsi utama yang menjalankan permainan, mencakup pengaturan awal, pengendalian ular, penanganan tabrakan, penambahan skor, dan kondisi Game Over.
 Loop permainan utama menangani input pengguna, memperbarui posisi ular, memeriksa tabrakan, dan menggambar ulang layar.
