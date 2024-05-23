@@ -4,7 +4,8 @@
 ## Abstrak
 Proyek ini adalah implementasi permainan Snake menggunakan bahasa pemrograman Python dengan bantuan modul Pygame untuk grafis dan modul Tkinter untuk dialog pop-up. Permainan ini mengikuti aturan klasik Snake, di mana pemain mengontrol ular yang bergerak di sekitar layar untuk memakan apel yang muncul secara acak. Setiap kali ular memakan apel, panjang ular bertambah dan skor pemain meningkat. Pemain harus menghindari menabrak dinding atau tubuh ular sendiri, yang akan menyebabkan permainan berakhir. Dalam kondisi Game Over, pemain diberikan opsi untuk keluar dari permainan atau memulai kembali. Penggunaan Tkinter memberikan antarmuka dialog yang interaktif saat pemain memilih untuk keluar dari permainan.
 
-##Bahasa Pemrograman
+## Bahasa Pemrograman
+
 Python: Bahasa utama yang digunakan untuk mengembangkan permainan ini. Python dipilih karena kemudahan penggunaannya dan ketersediaan pustaka yang kuat untuk pengembangan permainan dan antarmuka grafis.
 Tools yang Digunakan
 Pygame: Sebuah modul Python yang digunakan untuk membuat aplikasi multimedia dan permainan. Pygame menyediakan berbagai fungsi untuk menangani grafik, suara, dan input dari pemain.
@@ -13,7 +14,7 @@ Tkinter: Pustaka standar Python untuk membuat antarmuka pengguna grafis (GUI). D
 
 Random: Modul standar Python yang digunakan untuk menghasilkan posisi apel secara acak di dalam permainan.
 
-##Dokumentasi
+## Dokumentasi
 Inisialisasi dan Pengaturan Layar
 pygame.init(): Inisialisasi semua modul Pygame.
 screen_width dan screen_height: Menentukan ukuran layar permainan.
