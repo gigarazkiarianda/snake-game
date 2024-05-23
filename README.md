@@ -16,22 +16,36 @@ Random: Modul standar Python yang digunakan untuk menghasilkan posisi apel secar
 
 ## Dokumentasi
 Inisialisasi dan Pengaturan Layar
+
 pygame.init(): Inisialisasi semua modul Pygame.
+
 screen_width dan screen_height: Menentukan ukuran layar permainan.
+
 gameDisplay = pygame.display.set_mode((screen_width, screen_height)): Mengatur tampilan layar dengan ukuran yang telah ditentukan.
+
 pygame.display.set_caption('Snake Game'): Memberikan judul pada jendela permainan.
-Warna dan Ukuran Blok
+
+# Warna dan Ukuran Blok
 Warna yang digunakan adalah white, black, red, dan green dengan nilai RGB masing-masing.
+
 block_size menentukan ukuran setiap segmen ular dan apel.
+
 snake_speed menentukan kecepatan gerak ular.
 Fungsi Permainan
+
 snake(snake_list): Menggambar ular di layar berdasarkan koordinat segmen yang ada di snake_list.
+
 pesan_layar(psn, color): Menampilkan pesan di tengah layar.
+
 tampilkan_skor(skor): Menampilkan skor pemain di pojok kiri atas layar.
+
 tampilkan_popup(): Menampilkan dialog konfirmasi menggunakan Tkinter untuk memastikan pemain ingin keluar dari permainan.
-Game Loop
+
+# Game Loop
+
 gameLoop(): Fungsi utama yang menjalankan permainan, mencakup pengaturan awal, pengendalian ular, penanganan tabrakan, penambahan skor, dan kondisi Game Over.
 Loop permainan utama menangani input pengguna, memperbarui posisi ular, memeriksa tabrakan, dan menggambar ulang layar.
+
 Penanganan Input dan Tabrakan
 Pemain mengontrol arah ular menggunakan tombol panah.
 Permainan berakhir jika ular menabrak dinding atau dirinya sendiri.
